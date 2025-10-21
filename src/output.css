@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-100: oklch(93.6% 0.032 17.717);
     --color-black: #000;
     --color-white: #fff;
     --text-3xl: 1.875rem;
@@ -257,6 +258,21 @@
   .h-\[320xp\] {
     height: 320xp;
   }
+  .h-\[490px\] {
+    height: 490px;
+  }
+  .h-\[495px\] {
+    height: 495px;
+  }
+  .h-\[500pc\] {
+    height: 500pc;
+  }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[600px\] {
+    height: 600px;
+  }
   .h-\[700px\] {
     height: 700px;
   }
@@ -266,11 +282,17 @@
   .w-\[0px\] {
     width: 0px;
   }
+  .w-\[3\] {
+    width: 3;
+  }
   .w-\[23px\] {
     width: 23px;
   }
   .w-\[25qpx\] {
     width: 25qpx;
+  }
+  .w-\[50px\] {
+    width: 50px;
   }
   .w-\[80\%\] {
     width: 80%;
@@ -317,11 +339,20 @@
   .w-\[360px\] {
     width: 360px;
   }
+  .w-\[388\] {
+    width: 388;
+  }
+  .w-\[388px\] {
+    width: 388px;
+  }
   .w-\[576px\] {
     width: 576px;
   }
   .w-\[600px\] {
     width: 600px;
+  }
+  .w-\[960px\] {
+    width: 960px;
   }
   .w-\[1000px\] {
     width: 1000px;
@@ -359,12 +390,33 @@
   .gap-\[20px\] {
     gap: 20px;
   }
+  .gap-\[30px\] {
+    gap: 30px;
+  }
+  .gap-\[30xp\] {
+    gap: 30xp;
+  }
   .rounded-4xl {
     border-radius: var(--radius-4xl);
   }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-1 {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-b-2 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
+  .border-red-100 {
+    border-color: var(--color-red-100);
   }
   .bg-black {
     background-color: var(--color-black);
@@ -390,6 +442,9 @@
   .text-center {
     text-align: center;
   }
+  .text-end {
+    text-align: end;
+  }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
@@ -407,6 +462,15 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .decoration-solid {
+    text-decoration-style: solid;
+  }
+  .opacity-\[0\.7\] {
+    opacity: 0.7;
+  }
+  .opacity-\[0\.\] {
+    opacity: 0.;
   }
   .outline {
     outline-style: var(--tw-outline-style);
